@@ -1,0 +1,425 @@
+[
+  {
+    "date": "2026-11-23",
+    "stories": [
+      {
+        "id": "crwd",
+        "date": "2026-11-23",
+        "categories": [
+          "security",
+          "companies"
+        ],
+        "tr": {
+          "title": "CrowdStrike, Zscaler için 43,9 milyar dolarlık anlaşma imzaladı",
+          "summary": "Hisse takasına dayalı anlaşma tamamlanırsa CrowdStrike, Zscaler’ı satın alacak.",
+          "why": "İki şirket cihaz, ağ ve bulut güvenliğini aynı platformda birleştirmeyi hedefliyor."
+        },
+        "en": {
+          "title": "CrowdStrike agrees to buy Zscaler for $43.9 billion",
+          "summary": "CrowdStrike signed an all-stock deal to acquire Zscaler, subject to closing.",
+          "why": "The companies aim to combine endpoint, network and cloud protection."
+        },
+        "sources": [
+          {
+            "name": "CrowdStrike filing",
+            "url": "https://crowdstrike.gcs-web.com/static-files/2a309849-5bb3-44f1-92e6-7f860162af0d"
+          }
+        ]
+      },
+      {
+        "id": "leo",
+        "date": "2026-11-23",
+        "categories": [
+          "space",
+          "cloud"
+        ],
+        "tr": {
+          "title": "Amazon’un 36 internet uydusunun fırlatılması ertelendi",
+          "summary": "Ariane 6 geri sayımı, yer destek sistemlerindeki teknik sorun nedeniyle durduruldu.",
+          "why": "Arianespace bir sonraki fırlatma fırsatının en erken 24 Kasım olacağını açıkladı."
+        },
+        "en": {
+          "title": "Launch of 36 Amazon internet satellites postponed",
+          "summary": "A ground support issue halted the Ariane 6 countdown.",
+          "why": "Arianespace said the next launch opportunity would be no earlier than 24 November."
+        },
+        "sources": [
+          {
+            "name": "Arianespace",
+            "url": "https://newsroom.arianespace.com/mission-va271le-04-launch-update/"
+          }
+        ]
+      },
+      {
+        "id": "robot",
+        "date": "2026-11-23",
+        "categories": [
+          "research",
+          "companies"
+        ],
+        "tr": {
+          "title": "Simplexity Robotics 100 milyon dolar yatırım aldı",
+          "summary": "Çinli robotik girişiminin yatırım turuna Ant Group liderlik etti. Kurucu ortağa göre şirketin değerlemesi 1,6 milyar dolara çıktı.",
+          "why": "Yatırım, genel amaçlı robot geliştiren şirketlere olan ilgiyi gösteriyor."
+        },
+        "en": {
+          "title": "Simplexity Robotics raises $100 million",
+          "summary": "Ant Group led the Chinese robotics startup’s funding round, which its co-founder said valued it at $1.6 billion.",
+          "why": "The round shows investor interest in general-purpose robots."
+        },
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://news.bloomberglaw.com/capital-markets/ant-group-bets-on-simplexity-to-thrive-in-chinas-humanoid-race"
+          }
+        ]
+      },
+      {
+        "id": "honor",
+        "date": "2026-11-23",
+        "categories": [
+          "mobile",
+          "hardware"
+        ],
+        "tr": {
+          "title": "Honor 700 serisi Çin’de tanıtıldı",
+          "summary": "Yeni telefonlarda arka kameraların yanında bildirimleri gösterebilen küçük bir ekran var.",
+          "why": "Arka ekran, ana kamerayla selfie çekerken de vizör olarak kullanılabiliyor."
+        },
+        "en": {
+          "title": "Honor launches the 700 series in China",
+          "summary": "The phones include a small display beside the rear cameras that can show notifications.",
+          "why": "The rear screen doubles as a viewfinder for selfies taken with the main camera."
+        },
+        "sources": [
+          {
+            "name": "Honor",
+            "url": "https://www.honor.com/cn/news/"
+          },
+          {
+            "name": "Gizmochina",
+            "url": "https://www.gizmochina.com/?amp=1&attachment_id="
+          }
+        ]
+      },
+      {
+        "id": "cachyos",
+        "date": "2026-11-22",
+        "categories": [
+          "software",
+          "games"
+        ],
+        "tr": {
+          "title": "CachyOS, Easy Anti-Cheat Linux v2 desteği ekledi",
+          "summary": "Linux dağıtımı, Epic’in hile önleme sistemini kullanan oyunlar için ayrı bir açılış seçeneği sunuyor.",
+          "why": "Sürüm, bozuk bir sistemi USB bellek olmadan geri yüklemek için bir kurtarma aracı da ekliyor."
+        },
+        "en": {
+          "title": "CachyOS adds Easy Anti-Cheat Linux v2 support",
+          "summary": "The Linux distribution offers a separate boot option for games using Epic’s anti-cheat system.",
+          "why": "It also adds a recovery tool that can restore a broken system without a USB drive."
+        },
+        "sources": [
+          {
+            "name": "CachyOS",
+            "url": "https://discuss.cachyos.org/t/announcement-cachyos-november-2026-release-changelogs/39366"
+          }
+        ]
+      },
+      {
+        "id": "router",
+        "date": "2026-11-22",
+        "categories": [
+          "ai",
+          "security"
+        ],
+        "tr": {
+          "title": "OpenRouter, üç sağlayıcıyı platformdan çıkardı",
+          "summary": "Şirket, araştırmacıların bulgularının ardından 125 API uç noktasının veri saklamama uygunluğunu kaldırdı.",
+          "why": "Aynı modeli sunan sağlayıcıların veri politikaları farklı olabiliyor."
+        },
+        "en": {
+          "title": "OpenRouter removes three providers",
+          "summary": "After researchers reported findings, OpenRouter removed 125 API endpoints from its zero-data-retention eligibility list.",
+          "why": "Providers offering the same model can handle customer data differently."
+        },
+        "sources": [
+          {
+            "name": "OpenRouter",
+            "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+          }
+        ]
+      },
+      {
+        "id": "lean",
+        "date": "2026-11-23",
+        "categories": [
+          "research",
+          "software"
+        ],
+        "tr": {
+          "title": "Riemann hipotezi için bir ispat taslağı Lean ile inceleniyor",
+          "summary": "Gönüllüler, genelleştirilmiş Riemann hipotezi için önerilen ispatı bilgisayarın denetleyebileceği bir biçime aktarıyor.",
+          "why": "Lean, akıl yürütme adımlarını kontrol etmeye ve açık kalan noktaları bulmaya yardımcı oluyor."
+        },
+        "en": {
+          "title": "A draft Riemann hypothesis proof is being checked in Lean",
+          "summary": "Volunteers are translating a proposed proof of the generalized Riemann hypothesis into a form that a computer can check.",
+          "why": "Lean verifies reasoning steps and helps collaborators identify unresolved gaps."
+        },
+        "sources": [
+          {
+            "name": "Lean project",
+            "url": "https://github.com/mccorvie/riemann-masullo"
+          },
+          {
+            "name": "Robin Zhang",
+            "url": "https://www.ihes.fr/~rzhang/files/GRH%20note.pdf"
+          }
+        ]
+      },
+      {
+        "id": "hasat",
+        "date": "2026-11-23",
+        "categories": [
+          "turkey",
+          "companies"
+        ],
+        "tr": {
+          "title": "Teknopark İstanbul’un HASAT programında 35 girişim finale kaldı",
+          "summary": "Yazılım, yapay zekâ ve fintek dahil farklı alanlardan takımlar 16–18 Aralık’taki finale katılacak.",
+          "why": "Program, erken aşamadaki ekipleri yatırımcı ve sektör temsilcileriyle buluşturuyor."
+        },
+        "en": {
+          "title": "35 startups reach the Teknopark Istanbul HASAT final",
+          "summary": "Teams from software, AI, fintech and other fields will take part in the 16–18 December final.",
+          "why": "The program connects early-stage teams with investors and industry representatives."
+        },
+        "sources": [
+          {
+            "name": "siyahtilki",
+            "url": "https://siyahtilki.com/teknopark-istanbul-hasat-2026-35-girisim-finale/"
+          },
+          {
+            "name": "Teknopark İstanbul",
+            "url": "https://www.teknoparkistanbul.com.tr/etkinlikler/hasat-2026-yari-final-basladi"
+          }
+        ]
+      },
+      {
+        "id": "qwen",
+        "date": "2026-11-21",
+        "categories": [
+          "ai",
+          "software"
+        ],
+        "tr": {
+          "title": "Together AI, Qwen4 Max’i API hizmetine ekledi",
+          "summary": "Alibaba’nın 16 Kasım’da yayımladığı model, Together AI üzerinden geliştiricilere açıldı.",
+          "why": "Bir milyon tokenlık bağlam penceresi, uzun belgeleri ve büyük kod tabanlarını tek istekte incelemeye imkân veriyor."
+        },
+        "en": {
+          "title": "Together AI adds Qwen4 Max to its API",
+          "summary": "Developers can now use Alibaba’s model, first released on 16 November, through Together AI.",
+          "why": "Its one-million-token context window can take in long documents and large codebases in one request."
+        },
+        "sources": [
+          {
+            "name": "Together AI",
+            "url": "https://www.together.ai/blog/qwen4-max"
+          }
+        ]
+      },
+      {
+        "id": "together",
+        "date": "2026-11-21",
+        "categories": [
+          "security",
+          "ai"
+        ],
+        "tr": {
+          "title": "Together AI, saklanan bazı kullanıcı istemlerinin sızdığını açıkladı",
+          "summary": "Şirket, haziran ve temmuzda gönderilen örneklerin bir kısmının yetkisiz olarak indirildiğini bildirdi.",
+          "why": "Olayın ardından yeni hesaplarda veri saklamama varsayılan ayar oldu."
+        },
+        "en": {
+          "title": "Together AI reports a leak of stored user prompts",
+          "summary": "The company said some prompt samples submitted in June and July were downloaded without authorization.",
+          "why": "Together AI made zero data retention the default for new accounts after the incident."
+        },
+        "sources": [
+          {
+            "name": "Together AI",
+            "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+          }
+        ]
+      },
+      {
+        "id": "msft",
+        "date": "2026-11-21",
+        "categories": [
+          "career",
+          "companies"
+        ],
+        "tr": {
+          "title": "Microsoft’un önceden duyurduğu işten çıkarmalar 21 Kasım’da yürürlüğe girdi",
+          "summary": "Washington eyaletine verilen bildirime göre 21 Kasım, kapsamdaki çalışanlar için belirtilen ayrılış tarihi.",
+          "why": "Eylülde gönderilen bildirim, yeni bir işten çıkarma duyurusuyla yürürlük tarihi arasındaki farkı gösteriyor."
+        },
+        "en": {
+          "title": "Previously announced Microsoft job cuts took effect on 21 November",
+          "summary": "A notice filed in Washington state listed 21 November as the departure date for affected employees.",
+          "why": "The September filing distinguishes the announcement from the effective date."
+        },
+        "sources": [
+          {
+            "name": "Washington State WARN",
+            "url": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?download=1&file=88eaed30-e284-4dbf-9b9e-13600c6919ea.pdf"
+          }
+        ]
+      },
+      {
+        "id": "intel",
+        "date": "2026-11-20",
+        "categories": [
+          "career",
+          "hardware"
+        ],
+        "tr": {
+          "title": "Intel’in bilgi teknolojileri ekibinde yeni kesintiler bildirildi",
+          "summary": "Basına göre kesintiler 16 Kasım’da başladı. Etkilenen çalışan sayısı açıklanmadı.",
+          "why": "İşten çıkarmalar Intel’in şirket içi teknoloji operasyonlarını ilgilendiriyor."
+        },
+        "en": {
+          "title": "Intel reportedly cuts jobs in its IT organization",
+          "summary": "Reports date the start of the cuts to 16 November. Intel has not disclosed the number of affected employees.",
+          "why": "The reductions concern Intel’s internal technology operations."
+        },
+        "sources": [
+          {
+            "name": "Tom’s Hardware",
+            "url": "https://www.tomshardware.com/pc-components/cpus/intel-continues-layoffs-with-cuts-to-its-it-department-hundreds-of-employees-reportedly-affected-companys-workforce-reduced-by-27-800-under-lip-bu-tan"
+          }
+        ]
+      },
+      {
+        "id": "bill",
+        "date": "2026-11-19",
+        "categories": [
+          "companies"
+        ],
+        "tr": {
+          "title": "TPG ve Corpay, BILL için 6 milyar dolarlık anlaşma açıkladı",
+          "summary": "Finans yazılımı şirketi BILL, satın alma konusunda TPG ve Corpay ile anlaştı. İşlem onaylara tabi.",
+          "why": "BILL, küçük işletmelerin fatura ve ödeme işlemlerini otomatikleştiren yazılım sunuyor."
+        },
+        "en": {
+          "title": "TPG and Corpay announce a $6 billion deal for BILL",
+          "summary": "The finance software company agreed to an acquisition by TPG and Corpay. The deal still requires approvals.",
+          "why": "BILL makes software that automates invoicing and payments for small businesses."
+        },
+        "sources": [
+          {
+            "name": "TPG",
+            "url": "https://www.tpg.com/news-and-insights/bill-agrees-to-be-acquired-by-tpg-in-partnership-with-corpay"
+          }
+        ]
+      },
+      {
+        "id": "amd",
+        "date": "2026-11-18",
+        "categories": [
+          "hardware",
+          "ai"
+        ],
+        "tr": {
+          "title": "AMD ve OpenAI, GPU tasarımında iyileşme bildirdi",
+          "summary": "OpenAI, bazı devre bloklarının güç, performans ve alan ölçümünde yüzde 14’e varan iyileşme sağlandığını açıkladı.",
+          "why": "AMD, değişikliklerin bir kısmını üretime gönderdiği bir tasarıma dahil etti."
+        },
+        "en": {
+          "title": "AMD and OpenAI report GPU design improvements",
+          "summary": "OpenAI reported gains of up to 14% in a metric combining power, performance and area for selected blocks.",
+          "why": "AMD incorporated some of the changes into a design it sent for manufacturing."
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/pt-PT/index/advancing-chip-design-with-our-models/"
+          }
+        ]
+      },
+      {
+        "id": "gta",
+        "date": "2026-11-19",
+        "categories": [
+          "games"
+        ],
+        "tr": {
+          "title": "Grand Theft Auto VI, PS5 ve Xbox Series X|S için çıktı",
+          "summary": "Rockstar Games, GTA VI’nın iki konsol ailesinde yayımlandığını duyurdu.",
+          "why": "Duyuru oyunun hangi platformlarda çıktığını açıklığa kavuşturdu."
+        },
+        "en": {
+          "title": "Grand Theft Auto VI launches on PS5 and Xbox Series X|S",
+          "summary": "Rockstar Games confirmed that GTA VI is available on both console families.",
+          "why": "The launch announcement confirms which platforms have the game."
+        },
+        "sources": [
+          {
+            "name": "Rockstar Games",
+            "url": "https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available"
+          }
+        ]
+      },
+      {
+        "id": "gfn",
+        "date": "2026-11-19",
+        "categories": [
+          "games",
+          "cloud"
+        ],
+        "tr": {
+          "title": "GeForce NOW üç Fire TV Stick modeline geldi",
+          "summary": "NVIDIA, bulut oyun uygulamasını üç Vega OS tabanlı Fire TV Stick modeline ekledi.",
+          "why": "Desteklenen cihazlar, PC oyunlarını NVIDIA sunucularından televizyona aktarabiliyor."
+        },
+        "en": {
+          "title": "GeForce NOW adds three Fire TV Stick models",
+          "summary": "NVIDIA added its cloud gaming app to three Fire TV Stick models running Vega OS.",
+          "why": "Supported devices can stream PC games from NVIDIA servers to a television."
+        },
+        "sources": [
+          {
+            "name": "NVIDIA",
+            "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/"
+          }
+        ]
+      },
+      {
+        "id": "aa",
+        "date": "2026-11-23",
+        "categories": [
+          "turkey",
+          "security"
+        ],
+        "tr": {
+          "title": "Türkiye’de 12 ilde siber suç operasyonu düzenlendi",
+          "summary": "İçişleri Bakanlığı, operasyonlarda yakalanan 101 şüpheliden 60’ının tutuklandığını bildirdi.",
+          "why": "Soruşturmalar arasında çevrim içi dolandırıcılık ve bilişim sistemlerine yetkisiz erişim iddiaları yer alıyor."
+        },
+        "en": {
+          "title": "Türkiye reports cybercrime operations across 12 provinces",
+          "summary": "The Interior Ministry said 60 of 101 suspects detained in the operations were arrested.",
+          "why": "The investigations include alleged online fraud and unauthorized access to computer systems."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Ajansı",
+            "url": "https://m.aa.com.tr/tr/gundem/siber-suclarla-mucadele-operasyonlarinda-60-supheli-tutuklandi/4134187"
+          }
+        ]
+      }
+    ]
+  }
+]

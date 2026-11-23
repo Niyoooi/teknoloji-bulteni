@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Türkiye ve dünyadan günlük teknoloji haberleri, iki dilde.">
+  <meta name="theme-color" content="#111611">
+  <title>Teknoloji Bülteni</title>
+  <style>/* STYLES */</style>
+</head>
+<body>
+  <a class="skip" href="#main" data-copy="skip">Haberlere geç</a>
+  <header class="top">
+    <div class="shell top-inner">
+      <a href="#" class="brand" id="home"><span class="mark" aria-hidden="true">▟</span><span data-copy="brand">Teknoloji Bülteni</span></a>
+      <nav class="top-links" aria-label="Gezinme"><a href="#news" data-copy="newsNav">Haberler</a><a href="#archive" data-copy="archive">Arşiv</a></nav>
+      <div class="languages" role="group" aria-label="Dil"><button type="button" data-lang="tr" aria-pressed="true" lang="tr">TR</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button></div>
+    </div>
+  </header>
+  <main class="shell" id="main">
+    <div class="edition-bar" id="archive"><p id="edition-label"></p><div class="edition-picker"><label for="edition" data-copy="edition">Bülten tarihi</label><select id="edition"></select></div></div>
+    <section class="news" id="news" aria-labelledby="news-title">
+      <div class="news-heading"><h1 id="news-title">Haberler</h1><span id="count" role="status" aria-live="polite"></span></div>
+      <div class="controls">
+        <div class="views" id="views" role="group" aria-label="İçerik türleri"></div>
+        <form class="search" id="search-form" role="search"><label class="sr-only" for="search" data-copy="search">Haber ara</label><span class="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="Haber ara" autocomplete="off"><button type="submit" data-copy="find">Ara</button></form>
+        <div class="filters" id="filters" role="group" aria-label="Kategoriler"></div>
+        <details id="coverage" class="coverage" hidden><summary data-copy="coverage">Tarama kapsamı</summary><p id="coverage-message"></p></details>
+      </div>
+      <div class="stories" id="stories"></div>
+      <div class="empty" id="empty" hidden><h3 data-copy="noResults">Haber bulunamadı</h3><button type="button" id="reset" data-copy="reset">Aramayı temizle</button></div>
+    </section>
+  </main>
+  <footer class="shell footer"><span data-copy="brand">Teknoloji Bülteni</span><span data-copy="footer">Türkiye ve dünyadan teknoloji haberleri</span></footer>
+  <script type="application/json" id="edition-data">/* EDITIONS */</script>
+  <script>/* CLIENT */</script>
+</body>
+</html>

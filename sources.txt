@@ -1,0 +1,1878 @@
+TEKNOLOJİ BÜLTENİ KAYNAK ENVANTERİ
+23 Kasım 2026
+
+546 tekil haber kanalı (526 açık veya doğrudan listelenen, 20 yalnızca kapalı)
+67 tekil Thisdot bülteni
+613 tekil kayıt toplamı
+
+Her kanal bir başlık altında listelenir. Aynı kanalın farklı adresleri ve hangi depolarda geçtiği altına yazılır.
+[kapalı] kodda devre dışı bırakılmış veya yorum satırına alınmış kaydı gösterir.
+Aynı yayıncının ayrı içerik üreten konu akışları, sosyal hesapları ve kod depoları farklı kanallar sayılır.
+Adreslerin canlı çalışması ayrı ayrı test edilmedi. Arama hizmetleri ve GitHub’ın Python konu dizinindeki 50 depo toplamın dışındadır.
+
+KAYNAK DOSYALARI
+https://raw.githubusercontent.com/yildizozan/newspaper/main/feeds.json
+https://raw.githubusercontent.com/Mehdiest/techtally/main/config/sources.yaml
+https://raw.githubusercontent.com/Aparnap2/newsletter-agent/canary/config.py
+https://raw.githubusercontent.com/draco-agent/tech-news-digest/main/config/defaults/sources.json
+https://raw.githubusercontent.com/thisdot/tech-newsletters/main/README.md
+https://github.com/topics/news-digest?l=python
+
+
+OTOMATİK HABER PROJELERİ
+
+.NET Blog
+  https://devblogs.microsoft.com/dotnet/feed/  (The Newspaper)
+
+0xngmi
+  https://x.com/0xngmi  (Draco)
+
+36氪
+  https://36kr.com/feed  (Draco [kapalı])
+
+404 Media
+  https://www.404media.co/rss  (Draco)
+
+6529
+  https://x.com/punk6529  (Draco)
+
+a16z Crypto
+  https://a16zcrypto.substack.com/feed  (Draco)
+
+Aaron Levie
+  https://x.com/levie  (Draco)
+
+Adam Cochran
+  https://x.com/adamscochran  (Draco)
+
+Agno
+  https://github.com/agno-agi/agno  (Draco)
+
+AI Snake Oil
+  https://aisnakeoil.substack.com/feed  (Draco)
+
+Airbnb Engineering
+  https://medium.com/feed/airbnb-engineering  (The Newspaper)
+
+AK
+  https://x.com/_akhaliq  (Draco)
+
+Alex Albert
+  https://x.com/alexalbert__  (Draco)
+
+AlmaLinux Blog
+  https://almalinux.org/blog/index.xml  (The Newspaper)
+
+Ambassador / Emissary Blog
+  https://www.getambassador.io/blog/feed.xml  (The Newspaper)
+
+Andrej Karpathy
+  https://x.com/karpathy  (Draco)
+
+Andrew Ng
+  https://x.com/AndrewYNg  (Draco)
+
+Anthony Pompliano
+  https://x.com/APompliano  (Draco)
+
+Anthropic Engineering
+  https://raw.githubusercontent.com/conoro/anthropic-engineering-rss-feed/main/anthropic_engineering_rss.xml  (The Newspaper)
+
+Anthropic official
+  https://x.com/AnthropicAI  (Draco)
+
+Anthropic SDK
+  https://github.com/anthropics/anthropic-sdk-python  (Draco)
+
+Anthropic TypeScript SDK
+  https://github.com/anthropics/anthropic-sdk-typescript  (Draco)
+
+antirez
+  http://antirez.com/rss  (Draco)
+
+Aqua Security
+  https://blog.aquasec.com/rss.xml  (The Newspaper)
+
+Arch Linux News
+  https://archlinux.org/feeds/news/  (The Newspaper)
+
+Argo Project Blog
+  https://medium.com/feed/argo-project  (The Newspaper)
+
+Armin Ronacher
+  https://lucumr.pocoo.org/feed.atom  (Draco)
+
+Ars Technica
+  https://feeds.arstechnica.com/arstechnica/index  (Draco, TechTally)
+
+artificialintelligence-news.com
+  https://www.artificialintelligence-news.com/  (Newsletter Agent)
+
+Arvind Narayanan
+  https://x.com/random_walker  (Draco)
+
+arXiv cs.AI
+  http://export.arxiv.org/rss/cs.AI  (Draco)
+
+arXiv cs.CL
+  http://export.arxiv.org/rss/cs.CL  (Draco)
+
+arXiv cs.LG
+  http://export.arxiv.org/rss/cs.LG  (Draco)
+
+AutoGen
+  https://github.com/microsoft/autogen  (Draco)
+
+AWS Architecture Blog
+  https://aws.amazon.com/blogs/architecture/feed/  (The Newspaper)
+
+AWS Big Data Blog
+  https://aws.amazon.com/blogs/big-data/feed/  (The Newspaper)
+
+AWS Compute Blog
+  https://aws.amazon.com/blogs/compute/feed/  (The Newspaper)
+
+AWS Containers Blog
+  https://aws.amazon.com/blogs/containers/feed/  (The Newspaper)
+
+AWS Database Blog
+  https://aws.amazon.com/blogs/database/feed/  (The Newspaper)
+
+AWS DevOps Blog
+  https://aws.amazon.com/blogs/devops/feed/  (The Newspaper)
+
+AWS Machine Learning Blog
+  https://aws.amazon.com/blogs/machine-learning/feed/  (The Newspaper)
+
+AWS Networking Blog
+  https://aws.amazon.com/blogs/networking-and-content-delivery/feed/  (The Newspaper)
+
+AWS News Blog
+  https://aws.amazon.com/blogs/aws/feed/  (The Newspaper)
+
+AWS Open Source Blog
+  https://aws.amazon.com/blogs/opensource/feed/  (The Newspaper)
+
+AWS Security Blog
+  https://aws.amazon.com/blogs/security/feed/  (The Newspaper)
+
+Azure SDK Blog
+  https://devblogs.microsoft.com/azure-sdk/feed/  (The Newspaper)
+
+Azure SQL Dev Corner
+  https://devblogs.microsoft.com/azure-sql/feed/  (The Newspaper)
+
+Backstage Blog
+  https://backstage.io/blog/rss.xml  (The Newspaper)
+
+BAIR Blog
+  https://bair.berkeley.edu/blog/feed.xml  (The Newspaper, Draco)
+
+Balaji Srinivasan
+  https://x.com/balaji  (Draco)
+
+Bankless
+  https://www.bankless.com/rss/feed  (Draco)
+
+Ben's Bites
+  https://www.bensbites.com/feed  (Draco)
+
+BleepingComputer
+  https://www.bleepingcomputer.com/feed/  (The Newspaper)
+
+BlockSec
+  https://x.com/BlockSecTeam  (Draco)
+
+Booking.com Engineering
+  https://medium.com/feed/booking-com-development  (The Newspaper)
+
+Brian Armstrong (Coinbase)
+  https://x.com/brian_armstrong  (Draco)
+
+browser-use
+  https://github.com/browser-use/browser-use  (Draco)
+
+Bugtraq (Seclists)
+  https://seclists.org/rss/bugtraq.rss  (The Newspaper)
+
+ByteByteGo
+  https://blog.bytebytego.com/feed  (Draco)
+
+Capital One Tech
+  https://medium.com/feed/capital-one-tech  (The Newspaper)
+
+CD Foundation Blog
+  https://cd.foundation/blog/feed/  (The Newspaper)
+
+CERT Polska
+  https://www.cert.pl/en/rss.xml  (The Newspaper)
+
+cert-manager Releases
+  https://github.com/cert-manager/cert-manager/releases.atom  (The Newspaper)
+
+Chainguard (+ Wolfi)
+  https://www.chainguard.dev/unchained/rss.xml  (The Newspaper)
+
+Changelog
+  https://changelog.com/posts/feed  (The Newspaper)
+  https://changelog.com/feed  (Draco)
+
+Chaos Mesh Blog
+  https://chaos-mesh.org/blog/rss.xml  (The Newspaper)
+
+Check Point Research
+  https://research.checkpoint.com/feed/  (The Newspaper)
+
+Checkmarx
+  https://checkmarx.com/feed  (The Newspaper)
+
+ChinaTalk
+  https://www.chinatalk.media/feed  (Draco)
+
+Chromium Blog
+  https://blog.chromium.org/feeds/posts/default  (The Newspaper)
+
+CISA Advisories
+  https://www.cisa.gov/cybersecurity-advisories/all.xml  (The Newspaper)
+
+Cilium
+  https://cilium.io/blog/rss.xml  (The Newspaper)
+
+CircleCI Blog
+  https://circleci.com/blog/feed.xml  (The Newspaper)
+
+Cisco DevSecOps
+  https://blogs.cisco.com/tag/devsecops/feed  (The Newspaper)
+
+Cisco Talos Intelligence
+  https://blog.talosintelligence.com/rss/  (The Newspaper)
+
+Clement Delangue
+  https://x.com/ClementDelangue  (Draco)
+
+Cloud Native Now
+  https://cloudnativenow.com/feed/  (The Newspaper)
+
+Cloud Security Alliance
+  https://www.cloudsecurityalliance.org/blog/feed/  (The Newspaper)
+
+CloudEvents Blog
+  https://cloudevents.io/blog/index.xml  (The Newspaper)
+
+Cloudflare Blog
+  https://blog.cloudflare.com/rss/  (The Newspaper, Draco)
+
+Cloudflare MoltWorker
+  https://github.com/cloudflare/moltworker  (Draco [kapalı])
+
+Cloudflare Security Blog
+  https://blog.cloudflare.com/tag/security/rss/  (The Newspaper)
+
+Cluster API Releases
+  https://github.com/kubernetes-sigs/cluster-api/releases.atom  (The Newspaper)
+
+CNCF Blog
+  https://www.cncf.io/blog/feed  (The Newspaper)
+
+CNCF Case Studies
+  https://www.cncf.io/feed/?post_type=lf_case_study  (The Newspaper)
+
+CNCF Contributors Blog
+  https://contribute.cncf.io/blog/rss.xml  (The Newspaper)
+
+CNCF TAG Security
+  https://tag-security.cncf.io/blog/index.xml  (The Newspaper)
+
+CNCF Webinars
+  https://www.cncf.io/feed/?post_type=lf_webinar  (The Newspaper)
+
+Cobie
+  https://x.com/cobie  (Draco)
+
+Codefresh Blog
+  https://codefresh.io/blog/feed/  (The Newspaper)
+
+CoinDesk
+  https://www.coindesk.com/arc/outboundfeeds/rss/  (Draco)
+
+Cointelegraph
+  https://cointelegraph.com/rss  (Draco)
+
+ComfyUI
+  https://github.com/comfyanonymous/ComfyUI  (Draco)
+
+Container Journal
+  https://containerjournal.com/feed/  (The Newspaper)
+
+Container Solutions
+  https://blog.container-solutions.com/rss.xml  (The Newspaper)
+
+containerd Releases
+  https://github.com/containerd/containerd/releases.atom  (The Newspaper)
+
+Cortex Blog
+  https://cortexmetrics.io/blog/index.xml  (The Newspaper)
+
+CrewAI
+  https://github.com/crewAIInc/crewAI  (Draco)
+
+Crossplane
+  https://blog.crossplane.io/feed  (The Newspaper)
+
+CrowdStrike Blog
+  https://www.crowdstrike.com/blog/feed/  (The Newspaper)
+
+Cryptographic Engineering
+  https://blog.cryptographyengineering.com/feed/  (The Newspaper)
+
+Cursor
+  https://x.com/cursor_ai  (Draco)
+
+CVE Feed
+  https://cvefeed.io/rssfeed/latest.xml  (The Newspaper)
+
+Cybereason Blog
+  https://www.cybereason.com/blog/rss.xml  (The Newspaper)
+
+CZ (Binance)
+  https://x.com/cz_binance  (Draco)
+
+Daring Fireball
+  https://daringfireball.net/feeds/main  (Draco)
+
+Dario Amodei (Anthropic CEO)
+  https://x.com/DarioAmodei  (Draco)
+
+Dark Reading
+  https://www.darkreading.com/rss.xml  (The Newspaper)
+
+dbt Developer Blog
+  https://docs.getdbt.com/blog/rss.xml  (The Newspaper)
+
+Decrypt
+  https://decrypt.co/feed  (Draco)
+
+DeepSeek
+  https://x.com/deepseek_ai  (Draco)
+
+DeepSeek V3
+  https://github.com/deepseek-ai/DeepSeek-V3  (Draco)
+
+Demis Hassabis (DeepMind CEO)
+  https://x.com/demishassabis  (Draco)
+
+Deno Blog
+  https://deno.com/feed  (The Newspaper)
+
+Dev.to
+  https://dev.to/feed/  (TechTally)
+
+Dev.to — AI
+  https://dev.to/feed/tag/ai  (The Newspaper)
+
+Dev.to — AI Agents
+  https://dev.to/feed/tag/aiagents  (The Newspaper)
+
+Dev.to — Architecture
+  https://dev.to/feed/tag/architecture  (The Newspaper)
+
+Dev.to — CI/CD
+  https://dev.to/feed/tag/cicd  (The Newspaper)
+
+Dev.to — Cloud Native
+  https://dev.to/feed/tag/cloudnative  (The Newspaper)
+
+Dev.to — Database
+  https://dev.to/feed/tag/database  (The Newspaper)
+
+Dev.to — DevOps
+  https://dev.to/feed/tag/devops  (The Newspaper)
+
+Dev.to — DevSecOps
+  https://dev.to/feed/tag/devsecops  (The Newspaper)
+
+Dev.to — eBPF
+  https://dev.to/feed/tag/ebpf  (The Newspaper)
+
+Dev.to — GitOps
+  https://dev.to/feed/tag/gitops  (The Newspaper)
+
+Dev.to — Go
+  https://dev.to/feed/tag/golang  (The Newspaper)
+
+Dev.to — Kubernetes
+  https://dev.to/feed/tag/kubernetes  (The Newspaper)
+
+Dev.to — Linux
+  https://dev.to/feed/tag/linux  (The Newspaper)
+
+Dev.to — LLM
+  https://dev.to/feed/tag/llm  (The Newspaper)
+
+Dev.to — MLOps
+  https://dev.to/feed/tag/mlops  (The Newspaper)
+
+Dev.to — Observability
+  https://dev.to/feed/tag/observability  (The Newspaper)
+
+Dev.to — Open Source
+  https://dev.to/feed/tag/opensource  (The Newspaper)
+
+Dev.to — Programming
+  https://dev.to/feed/tag/programming  (The Newspaper)
+
+Dev.to — Python
+  https://dev.to/feed/tag/python  (The Newspaper)
+
+Dev.to — Rust
+  https://dev.to/feed/tag/rust  (The Newspaper)
+
+Dev.to — Security
+  https://dev.to/feed/tag/security  (The Newspaper)
+
+Dev.to — Service Mesh
+  https://dev.to/feed/tag/servicemesh  (The Newspaper)
+
+Dev.to — Terraform
+  https://dev.to/feed/tag/terraform  (The Newspaper)
+
+Dev.to — TypeScript
+  https://dev.to/feed/tag/typescript  (The Newspaper)
+
+Dev.to — WebAssembly
+  https://dev.to/feed/tag/webassembly  (The Newspaper)
+
+DevOps.com — DevSecOps
+  https://devops.com/category/blogs/devsecops/feed/  (The Newspaper)
+
+DevOpsCube
+  https://devopscube.com/feed/  (The Newspaper)
+
+Dify
+  https://github.com/langgenius/dify  (Draco)
+
+Docker Blog
+  https://www.docker.com/blog/feed/  (The Newspaper)
+
+Don't Worry About the Vase
+  https://thezvi.substack.com/feed  (Draco)
+
+Dropbox Tech
+  https://dropbox.tech/feed  (The Newspaper)
+
+Duo Decipher
+  https://duo.com/decipher/rss  (The Newspaper)
+
+Dwarkesh Patel
+  https://www.dwarkeshpatel.com/feed  (Draco)
+
+Dynatrace DevOps
+  https://www.dynatrace.com/news/category/devops/feed/  (The Newspaper)
+
+Dynomight
+  https://dynomight.net/feed.xml  (Draco)
+
+DZone DevOps
+  https://feeds.dzone.com/devops  (The Newspaper)
+
+eBPF
+  https://ebpf.io/blog/rss.xml  (The Newspaper)
+
+EFF Deeplinks
+  https://www.eff.org/rss/updates.xml  (The Newspaper)
+
+Elastic Blog
+  https://www.elastic.co/blog/feed  (The Newspaper)
+
+Eli Bendersky
+  https://eli.thegreenplace.net/feeds/all.atom.xml  (Draco)
+
+Eliezer Yudkowsky
+  https://x.com/ESYudkowsky  (Draco)
+
+Elixir Blog
+  https://www.elixir-lang.org/atom.xml  (The Newspaper)
+
+Elon Musk
+  https://x.com/elonmusk  (Draco)
+
+Emad Mostaque
+  https://x.com/EMostaque  (Draco)
+
+Engadget
+  https://www.engadget.com/rss.xml  (TechTally)
+
+Erik Brynjolfsson
+  https://x.com/erikbryn  (Draco)
+
+etcd Blog
+  https://etcd.io/blog/index.xml  (The Newspaper)
+
+Ethan Mollick
+  https://x.com/emollick  (Draco)
+
+Ethereum EIPs
+  https://github.com/ethereum/EIPs  (Draco [kapalı])
+
+Exploit Database
+  https://www.exploit-db.com/rss.xml  (The Newspaper)
+
+Fabien Sanglard
+  https://fabiensanglard.net/rss.xml  (Draco)
+
+Falco
+  https://falco.org/blog/feed.xml  (The Newspaper)
+
+Fedora Magazine
+  https://fedoramagazine.org/feed/  (The Newspaper)
+
+FinOps Foundation
+  https://www.finops.org/feed/  (The Newspaper)
+
+Fluent Bit
+  https://fluentbit.io/blog/index.xml  (The Newspaper)
+
+Flutter Blog
+  https://medium.com/feed/flutter  (The Newspaper)
+
+FluxCD Blog
+  https://fluxcd.io/blog/index.xml  (The Newspaper)
+
+Foundry
+  https://github.com/foundry-rs/foundry  (Draco)
+
+Fox-IT Blog
+  https://blog.fox-it.com/feed/  (The Newspaper)
+
+Gary Marcus
+  https://garymarcus.substack.com/feed  (Draco)
+
+Gentoo Linux News
+  https://www.gentoo.org/feeds/news.xml  (The Newspaper)
+
+Geoffrey Litt
+  https://www.geoffreylitt.com/feed.xml  (Draco)
+
+Geohot
+  https://geohot.github.io/blog/feed.xml  (Draco)
+
+GitHub Blog
+  https://github.blog/feed/  (The Newspaper)
+
+GitLab
+  https://about.gitlab.com/atom.xml  (The Newspaper)
+
+go-ethereum (Geth)
+  https://github.com/ethereum/go-ethereum  (Draco)
+
+Google — DevOps & SRE
+  https://cloudblog.withgoogle.com/products/devops-sre/rss  (The Newspaper)
+
+Google ADK
+  https://github.com/google/adk-python  (Draco)
+
+Google AI Blog
+  https://blog.google/technology/ai/rss/  (Draco, TechTally)
+
+Google AI official
+  https://x.com/GoogleAI  (Draco)
+
+Google Cloud Blog
+  https://cloudblog.withgoogle.com/rss  (The Newspaper)
+
+Google DeepMind Blog
+  https://deepmind.google/blog/rss.xml  (The Newspaper, Draco)
+
+Google DeepMind official
+  https://x.com/GoogleDeepMind  (Draco)
+
+Google Developers
+  https://feeds.feedburner.com/GDBcode  (The Newspaper)
+
+Google Online Security Blog
+  http://feeds.feedburner.com/GoogleOnlineSecurityBlog  (The Newspaper)
+
+Google Project Zero
+  https://googleprojectzero.blogspot.com/feeds/posts/default  (The Newspaper)
+
+Google Research
+  https://research.google/blog/rss  (The Newspaper, Draco)
+
+Google Threat Intelligence
+  https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/  (The Newspaper)
+
+Goose
+  https://github.com/block/goose  (Draco)
+
+Grab Tech
+  https://engineering.grab.com/feed.xml  (The Newspaper)
+
+Gradle Blog
+  https://blog.gradle.org/feed.atom  (The Newspaper)
+
+Grafana Blog
+  https://grafana.com/blog/index.xml  (The Newspaper)
+
+Greg Brockman
+  https://x.com/GregBrockman  (Draco)
+
+gRPC Blog
+  https://www.grpc.io/blog/index.xml  (The Newspaper)
+
+Gwern
+  https://gwern.substack.com/feed  (Draco [kapalı])
+
+Hacker News
+  https://news.ycombinator.com/rss  (The Newspaper)
+  https://hnrss.org/frontpage  (Draco)
+  https://hnrss.org/best  (Draco)
+  https://news.ycombinator.com/  (TechTally)
+
+HackerNoon
+  https://cdn.hackernoon.com/feed  (The Newspaper)
+
+Harbor Blog
+  https://goharbor.io/blog/index.xml  (The Newspaper)
+
+Harness Blog
+  https://harness.io/blog/rss.xml  (The Newspaper)
+
+Harrison Chase (LangChain)
+  https://x.com/hwchase17  (Draco)
+
+HashiCorp — Terraform
+  https://hashicorp.com/blog/products/terraform/feed  (The Newspaper)
+
+HashiCorp Blog
+  https://hashicorp.com/blog/feed  (The Newspaper)
+
+Hayden Adams
+  https://x.com/haydenzadams  (Draco)
+
+Helm Blog
+  https://helm.sh/blog/index.xml  (The Newspaper)
+
+Herbert
+  https://x.com/herbertcrypto  (Draco)
+
+Hillel Wayne
+  https://buttondown.com/hillelwayne/rss  (Draco)
+
+HKUDS NanoBot
+  https://github.com/HKUDS/nanobot  (Draco)
+
+Hsaka
+  https://x.com/HsakaTrades  (Draco)
+
+Hugging Face Blog
+  https://huggingface.co/blog/feed.xml  (The Newspaper, Draco, TechTally)
+
+Hugging Face official
+  https://x.com/huggingface  (Draco)
+
+Hugging Face Transformers
+  https://github.com/huggingface/transformers  (Draco)
+
+IBM Security Intelligence
+  https://securityintelligence.com/feed/  (The Newspaper)
+
+IEEE Spectrum
+  https://spectrum.ieee.org/feeds/feed.rss  (Draco)
+
+Import AI
+  https://importai.substack.com/feed  (Draco)
+
+Indeed Engineering
+  https://medium.com/feed/indeed-engineering  (The Newspaper)
+
+InfoQ
+  https://feed.infoq.com/  (TechTally)
+
+InfoQ — AI/ML & Data Engineering
+  https://feed.infoq.com/ai-ml-data-eng  (The Newspaper)
+
+InfoQ — Cloud
+  https://feed.infoq.com/cloud  (The Newspaper)
+
+InfoQ — Culture & Methods
+  https://feed.infoq.com/culture-methods  (The Newspaper)
+
+InfoQ — Data
+  https://feed.infoq.com/data  (The Newspaper)
+
+InfoQ — DevOps
+  https://feed.infoq.com/devops  (The Newspaper)
+
+InfoQ — DevSecOps
+  https://feed.infoq.com/devsecops  (The Newspaper)
+
+InfoQ — Security
+  https://feed.infoq.com/security  (The Newspaper)
+
+InfoQ — Software Architecture
+  https://feed.infoq.com/architecture-design  (The Newspaper)
+
+InfoQ CN
+  https://www.infoq.cn/feed  (The Newspaper, Draco)
+
+Infosecurity Magazine
+  https://www.infosecurity-magazine.com/rss/news/  (The Newspaper)
+
+Inside Rust Blog
+  https://blog.rust-lang.org/inside-rust/feed.xml  (The Newspaper)
+
+Interconnects
+  https://www.interconnects.ai/feed  (Draco)
+
+Istio Blog
+  https://istio.io/blog/feed.xml  (The Newspaper)
+
+It's FOSS
+  https://itsfoss.com/rss/  (The Newspaper)
+
+in-toto Blog
+  https://in-toto.io/blog/index.xml  (The Newspaper)
+
+Jaeger Tracing
+  https://medium.com/feed/jaegertracing  (The Newspaper)
+
+Jason Wei
+  https://x.com/_jasonwei  (Draco)
+
+JAX
+  https://github.com/jax-ml/jax  (Draco)
+
+JetBrains Blog
+  https://blog.jetbrains.com/feed/  (The Newspaper)
+
+JFrog Blog
+  https://jfrog.com/blog/feed/  (The Newspaper)
+
+Jim Fan (NVIDIA)
+  https://x.com/DrJimFan  (Draco)
+
+John Carmack
+  https://x.com/ID_AA_Carmack  (Draco)
+
+K8s Contributors
+  https://kubernetes.dev/blog/index.xml  (The Newspaper)
+
+Kali Linux Blog
+  https://www.kali.org/feed/  (The Newspaper)
+
+Kaspersky Securelist
+  https://securelist.com/feed/  (The Newspaper)
+
+KEDA Blog
+  https://keda.sh/blog/index.xml  (The Newspaper)
+
+Keptn Lifecycle
+  https://lifecycle.keptn.sh/blog/index.xml  (The Newspaper)
+
+Knative Blog
+  https://medium.com/feed/knative  (The Newspaper)
+
+KodeKloud — K8s
+  https://kodekloud.com/blog/tag/kubernetes/feed  (The Newspaper)
+
+Kotlin Blog
+  https://blog.jetbrains.com/kotlin/feed/  (The Newspaper)
+
+Krebs on Security
+  https://krebsonsecurity.com/feed/  (The Newspaper, Draco)
+
+Kubecost Blog
+  https://medium.com/feed/kubecost  (The Newspaper)
+
+KubeFlow
+  https://blog.kubeflow.org/feed.xml  (The Newspaper)
+
+Kubernetes Blog
+  https://kubernetes.io/feed.xml  (The Newspaper)
+
+KubeVela Blog
+  https://kubevela.io/blog/rss.xml  (The Newspaper)
+
+KubeVirt
+  https://kubevirt.io/feed.xml  (The Newspaper)
+
+Kubewarden Blog
+  https://kubewarden.io/blog/index.xml  (The Newspaper)
+
+KubeWeekly
+  https://www.cncf.io/feed/?post_type=lf_kubeweekly  (The Newspaper)
+
+LangChain
+  https://github.com/langchain-ai/langchain  (Draco)
+
+LangChain Blog
+  https://blog.langchain.com/rss  (The Newspaper)
+
+LangChain official
+  https://x.com/LangChain  (Draco)
+
+LangGraph
+  https://github.com/langchain-ai/langgraph  (Draco)
+
+Larry Cermak
+  https://x.com/lawmaster  (Draco)
+
+Latent Space
+  https://www.latent.space/feed  (Draco)
+
+lcamtuf (Michal Zalewski)
+  https://lcamtuf.substack.com/feed  (Draco)
+
+LearnK8s
+  https://learnk8s.io/rss.xml  (The Newspaper)
+
+Level Up Coding
+  https://medium.com/feed/gitconnected  (The Newspaper)
+
+Light Blue Touchpaper (Cambridge)
+  https://www.lightbluetouchpaper.org/feed/  (The Newspaper)
+
+Lil'Log (Lilian Weng)
+  https://lilianweng.github.io/index.xml  (The Newspaper, Draco)
+
+Linkerd Blog
+  https://linkerd.io/blog/feed.xml  (The Newspaper)
+
+Linux Foundation Blog
+  https://www.linuxfoundation.org/blog/rss.xml  (The Newspaper)
+
+Linux Journal
+  https://www.linuxjournal.com/node/feed  (The Newspaper)
+
+Linux Kernel
+  https://www.kernel.org/feeds/all.atom.xml  (The Newspaper)
+
+Linux Kernel
+  https://github.com/torvalds/linux  (Draco)
+
+Linux Today
+  https://www.linuxtoday.com/feed/  (The Newspaper)
+
+Linux.com
+  https://linux.com/feed/  (The Newspaper)
+
+Litmus Chaos Blog
+  https://medium.com/feed/litmus-chaos  (The Newspaper)
+
+llama.cpp
+  https://github.com/ggml-org/llama.cpp  (Draco)
+
+LlamaIndex
+  https://github.com/run-llama/llama_index  (Draco)
+
+LlamaIndex official
+  https://x.com/llama_index  (Draco)
+
+LMArena
+  https://x.com/lmarena_ai  (Draco)
+
+Lobsters
+  https://lobste.rs/rss  (Draco)
+
+Longhorn Blog
+  https://longhorn.io/blog/index.xml  (The Newspaper)
+
+Lucas Beyer
+  https://x.com/giffmana  (Draco)
+
+LWN.net
+  https://lwn.net/headlines/rss  (The Newspaper)
+
+Lyft Engineering
+  https://medium.com/feed/lyft-engineering  (The Newspaper)
+
+MalwareMustDie!
+  https://blog.malwaremustdie.org/atom.xml  (The Newspaper)
+
+Mandiant Blog
+  https://www.mandiant.com/resources/blog/rss.xml  (The Newspaper)
+
+Marc Andreessen
+  https://x.com/pmarca  (Draco)
+
+Mark Zuckerberg
+  https://x.com/finkd  (Draco)
+
+Martin Fowler
+  https://martinfowler.com/feed.atom  (The Newspaper)
+
+matklad (Alex Kladov)
+  https://matklad.github.io/feed.xml  (Draco)
+
+MCP Servers
+  https://github.com/modelcontextprotocol/servers  (Draco)
+
+MCP Specification
+  https://github.com/modelcontextprotocol/modelcontextprotocol  (Draco)
+
+Medium — Google Cloud
+  https://medium.com/feed/google-cloud  (The Newspaper)
+
+Medium — Microsoft Azure
+  https://medium.com/feed/microsoftazure  (The Newspaper)
+
+Mem0
+  https://github.com/mem0ai/mem0  (Draco)
+
+Merve Noyan
+  https://x.com/mervenoyann  (Draco)
+
+Messari
+  https://messari.io/rss  (Draco [kapalı])
+
+Messari
+  https://x.com/MessariCrypto  (Draco)
+
+Meta Engineering
+  https://engineering.fb.com/feed  (The Newspaper)
+
+Meta Llama
+  https://github.com/meta-llama/llama-models  (Draco)
+
+MIT Technology Review
+  https://www.technologyreview.com/feed  (Draco, TechTally)
+
+Michael Saylor (MicroStrategy)
+  https://x.com/saylor  (Draco)
+
+Microsoft AI Blog
+  https://blogs.microsoft.com/ai/feed/  (The Newspaper)
+
+Microsoft Azure Blog
+  https://azure.microsoft.com/en-us/blog/feed/  (The Newspaper)
+
+Microsoft DevOps Blog
+  https://devblogs.microsoft.com/devops/feed/  (The Newspaper)
+
+Microsoft Research
+  https://www.microsoft.com/en-us/research/feed/  (Draco)
+
+Microsoft Security Blog
+  https://www.microsoft.com/en-us/security/blog/feed/  (The Newspaper)
+
+Microsoft Semantic Kernel
+  https://devblogs.microsoft.com/semantic-kernel/feed/  (The Newspaper)
+
+Middleware Inventory
+  https://www.middlewareinventory.com/feed/  (The Newspaper)
+
+Mindao
+  https://x.com/mindaoyang  (Draco)
+
+MinIO Blog
+  https://blog.min.io/feed/  (The Newspaper)
+
+minimaxir (Max Woolf)
+  https://minimaxir.com/index.xml  (Draco)
+
+Mistral AI official
+  https://x.com/MistralAI  (Draco)
+
+Mitchell Hashimoto
+  https://mitchellh.com/feed.xml  (Draco)
+
+Moonshot Kimi
+  https://x.com/Kimi_Moonshot  (Draco)
+
+Mozilla Hacks
+  https://hacks.mozilla.org/feed/  (The Newspaper)
+
+Mozilla Security Blog
+  https://blog.mozilla.org/security/feed/  (The Newspaper)
+
+n8n
+  https://github.com/n8n-io/n8n  (Draco)
+
+Naked Security (Sophos)
+  https://nakedsecurity.sophos.com/feed/  (The Newspaper)
+
+Nathan Lambert
+  https://x.com/natolambert  (Draco)
+
+NATS Blog
+  https://nats.io/blog/index.xml  (The Newspaper)
+
+Neon Blog
+  https://neon.com/blog/rss.xml  (The Newspaper)
+
+New Relic Blog
+  https://www.newrelic.com/blog/feed  (The Newspaper)
+
+Nirmata (Kyverno)
+  https://nirmata.com/feed/  (The Newspaper)
+
+NixOS News
+  https://nixos.org/blog/feed.xml  (The Newspaper)
+
+Node.js Blog
+  https://nodejs.org/en/feed/blog.xml  (The Newspaper)
+
+Notary Project Blog
+  https://notaryproject.dev/blog/index.xml  (The Newspaper)
+
+Nous Hermes Agent
+  https://github.com/nousresearch/hermes-agent  (Draco)
+
+NVIDIA AI Blog
+  https://blogs.nvidia.com/feed/  (Draco)
+
+NVIDIA Technical Blog
+  https://developer.nvidia.com/blog/feed/  (The Newspaper, Draco)
+
+NVISO Blog
+  https://blog.nviso.eu/feed/  (The Newspaper)
+
+Offensive Security Blog
+  https://www.offensive-security.com/feed/  (The Newspaper)
+
+Ollama
+  https://github.com/ollama/ollama  (Draco)
+
+Omar Sanseviero
+  https://x.com/osanseviero  (Draco)
+
+One Useful Thing
+  https://www.oneusefulthing.org/feed  (Draco)
+
+OpenAI Agents SDK
+  https://github.com/openai/openai-agents-python  (Draco)
+
+OpenAI Blog
+  https://openai.com/blog/rss.xml  (The Newspaper, Draco)
+  https://openai.com/news/rss.xml  (TechTally)
+
+OpenAI Codex
+  https://github.com/openai/codex  (Draco)
+
+OpenAI official
+  https://x.com/OpenAI  (Draco)
+
+OpenAI Python SDK
+  https://github.com/openai/openai-python  (Draco)
+
+OpenClaw
+  https://github.com/openclaw/openclaw  (Draco)
+
+OpenClaw
+  https://x.com/OpenClawAI  (Draco)
+
+OpenEBS Blog
+  https://openebs.io/blog/feed.xml  (The Newspaper)
+
+OpenFeature Blog
+  https://openfeature.dev/blog/rss.xml  (The Newspaper)
+
+OpenHands
+  https://github.com/All-Hands-AI/OpenHands  (Draco)
+
+Opensource.com
+  https://opensource.com/feed  (The Newspaper)
+
+openSUSE News
+  https://news.opensuse.org/feed.xml  (The Newspaper)
+
+OpenTelemetry
+  https://opentelemetry.io/blog/index.xml  (The Newspaper)
+
+OpenViking
+  https://github.com/volcengine/OpenViking  (Draco)
+
+OSCHINA
+  https://www.oschina.net/news/rss  (The Newspaper)
+
+Overreacted (Dan Abramov)
+  https://overreacted.io/rss.xml  (Draco)
+
+OWASP Blog
+  https://owasp.org/feed.xml  (The Newspaper)
+
+PagerDuty Blog
+  https://www.pagerduty.com/feed/  (The Newspaper)
+
+Palo Alto Networks AppSec
+  https://www.paloaltonetworks.com/blog/category/appsec/feed  (The Newspaper)
+
+Paul Graham
+  http://www.aaronsw.com/2002/feeds/pgessays.rss  (Draco [kapalı])
+
+PayPal Tech Blog
+  https://medium.com/feed/paypal-tech  (The Newspaper)
+
+PeckShield Alert
+  https://x.com/PeckShieldAlert  (Draco)
+
+PEFT
+  https://github.com/huggingface/peft  (Draco)
+
+Perplexity
+  https://x.com/perplexity_ai  (Draco)
+
+Peter Steinberger
+  https://x.com/steipete  (Draco)
+
+Philipp Schmid
+  https://x.com/_philschmid  (Draco)
+
+Phoronix
+  https://www.phoronix.com/rss.php  (The Newspaper)
+
+Pinterest Engineering
+  https://medium.com/feed/pinterest-engineering  (The Newspaper)
+
+PlatformEngineering.org
+  https://platformengineering.org/blog/rss.xml  (The Newspaper)
+
+Pluralistic (Cory Doctorow)
+  https://pluralistic.net/feed/  (Draco)
+
+Port.io Blog
+  https://www.port.io/blog/rss.xml  (The Newspaper)
+
+PortSwigger Research
+  https://portswigger.net/research/rss  (The Newspaper)
+
+PostgreSQL News
+  https://www.postgresql.org/news.rss  (The Newspaper)
+
+Pragmatic Engineer
+  https://blog.pragmaticengineer.com/rss/  (The Newspaper)
+
+Product Hunt
+  https://www.producthunt.com/feed  (Draco)
+
+Prometheus Blog
+  https://prometheus.io/blog/feed.xml  (The Newspaper)
+
+Pulumi Blog
+  https://www.pulumi.com/blog/rss.xml  (The Newspaper)
+
+Pydantic AI
+  https://github.com/pydantic/pydantic-ai  (Draco)
+
+Python Insider
+  https://blog.python.org/feeds/posts/default  (The Newspaper)
+
+PyTorch
+  https://github.com/pytorch/pytorch  (Draco)
+
+Qualys Blog
+  https://blog.qualys.com/feed  (The Newspaper)
+
+Qwen
+  https://x.com/Alibaba_Qwen  (Draco)
+
+Qwiet.ai (ShiftLeft)
+  https://qwiet.ai/feed  (The Newspaper)
+
+r/Anthropic
+  https://www.reddit.com/r/Anthropic/  (Draco [kapalı])
+
+r/artificial
+  https://www.reddit.com/r/artificial/  (Draco [kapalı], TechTally)
+
+r/Bitcoin
+  https://www.reddit.com/r/Bitcoin/  (Draco [kapalı])
+
+r/ChatGPT
+  https://www.reddit.com/r/ChatGPT/  (Draco [kapalı])
+
+r/CryptoCurrency
+  https://www.reddit.com/r/CryptoCurrency/  (Draco [kapalı])
+
+r/defi
+  https://www.reddit.com/r/defi/  (Draco [kapalı])
+
+r/ethereum
+  https://www.reddit.com/r/ethereum/  (Draco [kapalı])
+
+r/ExperiencedDevs
+  https://www.reddit.com/r/ExperiencedDevs/  (Draco [kapalı])
+
+r/LocalLLaMA
+  https://www.reddit.com/r/LocalLLaMA/  (Draco [kapalı])
+
+r/MachineLearning
+  https://www.reddit.com/r/MachineLearning/.rss  (Draco)
+  https://www.reddit.com/r/MachineLearning/  (Draco [kapalı])
+
+r/OpenAI
+  https://www.reddit.com/r/OpenAI/  (Draco [kapalı])
+
+r/programming
+  https://www.reddit.com/r/programming/  (Draco [kapalı], TechTally)
+
+r/singularity
+  https://www.reddit.com/r/singularity/  (Draco [kapalı])
+
+r/technology
+  https://www.reddit.com/r/technology/  (TechTally)
+
+Rachel by the Bay
+  https://rachelbythebay.com/w/atom.xml  (Draco [kapalı])
+
+Rapid7 Blog
+  https://www.rapid7.com/blog/rss/  (The Newspaper)
+
+Ray
+  https://github.com/ray-project/ray  (Draco)
+
+Ray (Anyscale) Blog
+  https://ray-project.github.io/feed.xml  (The Newspaper)
+
+Red Hat Blog
+  https://www.redhat.com/en/rss/blog  (The Newspaper)
+
+Red Hat OpenShift Blog
+  https://www.redhat.com/en/rss/blog/channel/red-hat-openshift  (The Newspaper)
+
+Red Hat Security Blog
+  https://www.redhat.com/en/rss/blog/channel/security  (The Newspaper)
+
+Redis Blog
+  https://redis.io/blog/feed/  (The Newspaper)
+
+Reth
+  https://github.com/paradigmxyz/reth  (Draco)
+
+Rowan Cheung (The Rundown AI)
+  https://x.com/rowancheung  (Draco)
+
+Rust
+  https://github.com/rust-lang/rust  (Draco)
+
+Rust Blog
+  https://blog.rust-lang.org/feed.xml  (The Newspaper)
+
+Ryan Sean Adams
+  https://x.com/RyanSAdams  (Draco)
+
+Sam Altman (OpenAI CEO)
+  https://x.com/sama  (Draco)
+
+SANS ISC
+  https://isc.sans.edu/rssfeed.xml  (The Newspaper)
+
+Satya Nadella
+  https://x.com/satyanadella  (Draco)
+
+Schneier on Security
+  https://www.schneier.com/blog/atom.xml  (The Newspaper)
+  https://www.schneier.com/feed/  (Draco)
+
+Sebastian Raschka
+  https://magazine.sebastianraschka.com/feed  (Draco)
+
+Sebastian Raschka
+  https://x.com/rasbt  (Draco)
+
+Security Affairs
+  https://securityaffairs.com/feed  (The Newspaper)
+
+SegmentFault
+  https://segmentfault.com/feeds  (The Newspaper)
+
+SEI/CMU DevSecOps
+  https://sei.cmu.edu/blog/feeds/latest/rss/  (The Newspaper)
+
+Semgrep Blog
+  https://semgrep.dev/blog/rss  (The Newspaper)
+
+SentinelOne Blog
+  https://www.sentinelone.com/blog/feed/  (The Newspaper)
+
+SGLang
+  https://github.com/sgl-project/sglang  (Draco)
+
+Sigstore Blog
+  https://medium.com/feed/sigstore  (The Newspaper)
+
+Sigstore Official Blog
+  https://blog.sigstore.dev/index.xml  (The Newspaper)
+
+Simon Willison
+  https://simonwillison.net/atom/everything/  (Draco, TechTally)
+
+Simon Willison
+  https://x.com/simonw  (Draco)
+
+Sipeed PicoClaw
+  https://github.com/sipeed/picoclaw  (Draco)
+
+SlowMist
+  https://x.com/SlowMist_Team  (Draco)
+
+Snort Blog
+  https://blog.snort.org/feeds/posts/default  (The Newspaper)
+
+Snyk
+  https://snyk.io/blog/feed/  (The Newspaper)
+
+Solidity
+  https://github.com/ethereum/solidity  (Draco)
+
+Solo.io Blog
+  https://www.solo.io/blog/rss.xml  (The Newspaper)
+
+Sonatype
+  https://blog.sonatype.com/rss.xml  (The Newspaper)
+
+Soumith Chintala
+  https://x.com/soumithchintala  (Draco)
+
+Sourcegraph Blog
+  https://sourcegraph.com/blog/rss.xml  (The Newspaper)
+
+Spotify Engineering
+  https://engineering.atspotify.com/feed/  (The Newspaper)
+
+Spring Blog
+  https://spring.io/blog.atom  (The Newspaper)
+
+Stack Overflow Blog
+  https://stackoverflow.blog/feed  (The Newspaper, TechTally)
+
+StepSecurity Blog
+  https://www.stepsecurity.io/blog/rss.xml  (The Newspaper)
+
+Stratechery
+  https://stratechery.com/feed/  (TechTally [kapalı])
+
+Strimzi (Kafka on K8s)
+  https://strimzi.io/feed.xml  (The Newspaper)
+
+Stripe Blog
+  https://stripe.com/blog/feed.rss  (The Newspaper)
+
+Sucuri Blog
+  https://blog.sucuri.net/feed  (The Newspaper)
+
+Sundar Pichai
+  https://x.com/sundarpichai  (Draco)
+
+Swift Blog
+  https://www.swift.org/atom.xml  (The Newspaper)
+
+Swyx
+  https://x.com/swyx  (Draco)
+
+Sysdig Blog
+  https://www.sysdig.com/feed/  (The Newspaper)
+
+Tails OS News
+  https://tails.boum.org/news/index.en.rss  (The Newspaper)
+
+TechCrunch
+  https://techcrunch.com/feed/  (Draco, TechTally)
+  https://techcrunch.com/category/artificial-intelligence/  (Newsletter Agent)
+
+Techmeme
+  https://www.techmeme.com/feed.xml  (Draco)
+
+Tekton Blog
+  https://tekton.dev/blog/index.xml  (The Newspaper)
+
+Tenable Blog
+  https://www.tenable.com/blog/feed  (The Newspaper)
+
+Terraform Releases
+  https://github.com/hashicorp/terraform/releases.atom  (The Newspaper)
+
+Thanos Blog
+  https://thanos.io/blog/index.xml  (The Newspaper)
+
+The Block
+  https://www.theblock.co/rss.xml  (Draco)
+
+The Decoder
+  https://the-decoder.com/feed/  (Draco)
+
+The Defiant
+  https://thedefiant.io/feed  (Draco)
+
+The DFIR Report
+  https://thedfirreport.com/feed/  (The Newspaper)
+
+The Go Blog
+  https://go.dev/blog/feed.atom  (The Newspaper)
+
+The Hacker News
+  https://feeds.feedburner.com/TheHackersNews  (The Newspaper)
+
+The Honeynet Project
+  https://honeynet.org/feed/  (The Newspaper)
+
+The New Stack
+  https://thenewstack.io/feed  (The Newspaper, Draco, TechTally)
+
+The New Stack — CI/CD
+  https://thenewstack.io/ci-cd/feed  (The Newspaper)
+
+The New Stack — Cloud Native
+  https://thenewstack.io/cloud-native/feed  (The Newspaper)
+
+The New Stack — Containers
+  https://thenewstack.io/containers/feed  (The Newspaper)
+
+The New Stack — DevOps
+  https://thenewstack.io/devops/feed  (The Newspaper)
+
+The New Stack — K8s
+  https://thenewstack.io/kubernetes/feed  (The Newspaper)
+
+The New Stack — Linux
+  https://thenewstack.io/linux/feed  (The Newspaper)
+
+The New Stack — Microservices
+  https://thenewstack.io/microservices/feed  (The Newspaper)
+
+The New Stack — Observability
+  https://thenewstack.io/observability/feed  (The Newspaper)
+
+The New Stack — Open Source
+  https://thenewstack.io/open-source/feed  (The Newspaper)
+
+The New Stack — Platform Engineering
+  https://thenewstack.io/platform-engineering/feed  (The Newspaper)
+
+The New Stack — Security
+  https://thenewstack.io/security/feed  (The Newspaper)
+
+The New Stack — Serverless
+  https://thenewstack.io/serverless/feed  (The Newspaper)
+
+The New Stack — Service Mesh
+  https://thenewstack.io/service-mesh/feed  (The Newspaper)
+
+The New Stack — Storage
+  https://thenewstack.io/storage/feed  (The Newspaper)
+
+The New Stack — WebAssembly
+  https://thenewstack.io/webassembly/feed  (The Newspaper)
+
+The Old New Thing (Raymond Chen)
+  https://devblogs.microsoft.com/oldnewthing/feed  (Draco)
+
+The Register
+  https://www.theregister.com/headlines.atom  (Draco)
+
+The Register — DevOps
+  https://www.theregister.com/devops/headlines.atom  (The Newspaper)
+
+The Register — Security
+  https://www.theregister.com/security/headlines.atom  (The Newspaper)
+
+The Verge
+  https://www.theverge.com/rss/index.xml  (Draco, TechTally)
+  https://www.theverge.com/ai-artificial-intelligence  (Newsletter Agent)
+
+Thoughtworks Insights
+  https://www.thoughtworks.com/rss/insights.xml  (The Newspaper)
+
+TiDB Blog (PingCAP)
+  https://www.pingcap.com/blog/feed/  (The Newspaper)
+
+TiKV Blog
+  https://www.tikv.org/blog/index.xml  (The Newspaper)
+
+TLDR Tech
+  https://tldr.tech/tech/rss.xml  (TechTally [kapalı])
+
+Together AI Blog
+  https://www.together.ai/blog/rss.xml  (The Newspaper)
+
+Tor Project Blog
+  https://blog.torproject.org/rss.xml  (The Newspaper)
+
+Towards AI
+  https://medium.com/feed/towards-artificial-intelligence  (The Newspaper)
+
+Towards Data Science
+  https://towardsdatascience.com/feed  (The Newspaper)
+  https://medium.com/feed/data-science  (The Newspaper)
+
+Traefik Releases
+  https://github.com/traefik/traefik/releases.atom  (The Newspaper)
+
+Trail of Bits Blog
+  https://blog.trailofbits.com/feed/  (The Newspaper)
+
+Tri Dao
+  https://x.com/tri_dao  (Draco)
+
+Triton
+  https://github.com/triton-lang/triton  (Draco)
+
+Troy Hunt
+  https://www.troyhunt.com/rss/  (Draco)
+
+TypeScript Blog
+  https://devblogs.microsoft.com/typescript/feed/  (The Newspaper)
+
+Ubuntu Blog
+  https://ubuntu.com/blog/feed  (The Newspaper)
+
+UK NCSC Advisories
+  https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml  (The Newspaper)
+
+Unit 42 (Palo Alto Threat Intel)
+  https://unit42.paloaltonetworks.com/feed/  (The Newspaper)
+
+Unsloth
+  https://github.com/unslothai/unsloth  (Draco)
+
+V8 Blog
+  https://v8.dev/blog.atom  (The Newspaper)
+
+Velero Blog
+  https://velero.io/blog/index.xml  (The Newspaper)
+
+VentureBeat
+  https://venturebeat.com/category/ai/feed/  (Draco, TechTally)
+  https://venturebeat.com/ai/  (Newsletter Agent)
+
+Veracode
+  https://www.veracode.com/blog/feed  (The Newspaper)
+
+VictoriaMetrics Blog
+  https://victoriametrics.medium.com/feed  (The Newspaper)
+
+Vitalik Buterin
+  https://vitalik.eth.limo/feed.xml  (Draco)
+
+Vitalik Buterin (Ethereum)
+  https://x.com/VitalikButerin  (Draco)
+
+Vitess Blog
+  https://vitess.io/blog/index.xml  (The Newspaper)
+
+vLLM
+  https://github.com/vllm-project/vllm  (Draco)
+
+WasmCloud Blog
+  https://wasmcloud.com/blog/rss.xml  (The Newspaper)
+
+WebKit Blog
+  https://webkit.org/feed/  (The Newspaper)
+
+WeLiveSecurity (ESET)
+  https://www.welivesecurity.com/feed/  (The Newspaper)
+
+Wikimedia Tech Blog
+  https://techblog.wikimedia.org/feed/  (The Newspaper)
+
+Wired
+  https://www.wired.com/feed/rss  (Draco, TechTally)
+  https://www.wired.com/tag/artificial-intelligence/  (Newsletter Agent)
+
+Wix Engineering
+  https://medium.com/feed/wix-engineering  (The Newspaper)
+
+Wiz Blog
+  https://www.wiz.io/blog/rss/  (The Newspaper)
+
+Wiz Research
+  https://www.wiz.io/blog/tag/research/rss  (The Newspaper)
+
+Wu Blockchain
+  https://x.com/WuBlockchain  (Draco)
+
+xAI official
+  https://x.com/xai  (Draco)
+
+Xe Iaso
+  https://xeiaso.net/blog.rss  (Draco)
+
+Yann LeCun (Meta AI)
+  https://x.com/ylecun  (Draco)
+
+YouTube: 3Blue1Brown
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw  (Draco)
+
+YouTube: a16z crypto
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCTHq3W46BiAYjKUYZq2qm-Q  (Draco)
+
+YouTube: AI Epiphany
+  https://www.youtube.com/feeds/videos.xml?channel_id=UChepm4zf3QIYZgL5w7jl3MA  (Draco)
+
+YouTube: AI Explained
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCBjkbmzVplPgVF-GheNYWCg  (Draco)
+
+YouTube: AI Jason
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCrXSVX9a1mj8l0CMLwKgMVw  (Draco)
+
+YouTube: Andrej Karpathy
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ  (Draco)
+
+YouTube: Bankless
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCAl9Ld79qaZxp9JzEOwd3aA  (Draco)
+
+YouTube: Computerphile
+  https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA  (Draco)
+
+YouTube: Dabo Rai
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCx11muyXurAlpAzrjhERSCw  (Draco)
+
+YouTube: Fireship
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA  (Draco)
+
+YouTube: Hugging Face
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCHlNU7kIZhRgSbhHvFoy72w  (Draco)
+
+YouTube: Lex Fridman
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA  (Draco)
+
+YouTube: Matt Wolfe
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCl3U-xOlFVLlsheAug-QoWA  (Draco)
+
+YouTube: Prompt Engineering
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCDq7SjbgRKty5TgGafW8Clg  (Draco)
+
+YouTube: Two Minute Papers
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg  (Draco)
+
+YouTube: Yannic Kilcher
+  https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew  (Draco)
+
+YugabyteDB Blog
+  https://www.yugabyte.com/blog/feed/  (The Newspaper)
+
+ZachXBT
+  https://x.com/zachxbt  (Draco)
+
+ZDNet
+  https://www.zdnet.com/feed/  (TechTally)
+
+Zendesk Engineering
+  https://medium.com/feed/zendesk-engineering  (The Newspaper)
+
+ZeroClaw
+  https://github.com/zeroclaw-labs/zeroclaw  (Draco)
+
+Zig News
+  https://ziglang.org/news/index.xml  (The Newspaper)
+
+少数派
+  https://sspai.com/feed  (Draco)
+
+机器之心 Synced
+  https://www.jiqizhixin.com/rss  (Draco [kapalı])
+
+爱范儿
+  https://www.ifanr.com/feed  (Draco)
+
+神鱼 DiscusFish
+  https://x.com/bitfish  (Draco)
+
+量子位 QbitAI
+  https://www.qbitai.com/feed  (Draco)
+
+
+THISDOT BÜLTEN KATALOĞU
+
+A Drip of JavaScript
+  http://adripofjavascript.com/  (Thisdot)
+
+Accessibility Weekly
+  https://a11yweekly.com/  (Thisdot)
+
+Angular Typescript Newsletter
+  https://fullstackfeed.com/angular-typescript-newsletter-most-intersting-and-updated-news-once-a-week/  (Thisdot)
+
+Angular Weekly
+  https://www.getrevue.co/profile/angular-newsletter  (Thisdot)
+
+Awesome React Newsletter
+  https://react.libhunt.com/newsletter  (Thisdot)
+
+Benedict’s Newsletter
+  https://www.ben-evans.com/newsletter  (Thisdot)
+
+Bizarro Devs
+  https://bizzarodevs.com/  (Thisdot)
+
+Bloomberg - Fully Charged
+  https://link.mail.bloombergbusiness.com/public/11147896  (Thisdot)
+
+Boagworld
+  https://boagworld.com/subscribe  (Thisdot)
+
+Box of Amazing
+  https://boxofamazing.com  (Thisdot)
+
+Bytes
+  https://bytes.dev/  (Thisdot)
+
+Changelog Nightly
+  https://changelog.com/nightly/  (Thisdot)
+
+Changelog Weekly
+  https://changelog.com/weekly  (Thisdot)
+
+Cloud Wars Newsletter
+  https://cloudwars.co/subscribe/cloud-wars-newsletter/  (Thisdot)
+
+Dense Discovery
+  https://www.densediscovery.com/  (Thisdot)
+
+DevOps Online
+  https://www.devopsonline.co.uk/  (Thisdot)
+
+Devops Weekly
+  https://www.devopsweekly.com/  (Thisdot)
+
+DevOps'ish
+  https://devopsish.com/  (Thisdot)
+
+DigitalOcean Infrastructure as a Newsletter
+  https://www.digitalocean.com/community/newsletter  (Thisdot)
+
+Diversify Tech
+  https://www.diversifytech.co/  (Thisdot)
+
+ES.Next News
+  http://esnextnews.com/  (Thisdot)
+
+Frontend Focus
+  https://frontendfoc.us/  (Thisdot)
+
+Frontend Weekly
+  https://frontendweekly.co/  (Thisdot)
+
+Fundraising Fieldnotes
+  https://adamant.beehiiv.com/  (Thisdot)
+
+GeekWire Cloud Tech
+  https://www.geekwire.com/cloud/  (Thisdot)
+
+GeePaw Weekly
+  https://www.geepawhill.org/  (Thisdot)
+
+guidance counselor 2.0 newsletter
+  https://www.getrevue.co/profile/tdesseyn  (Thisdot)
+
+IBM Supply Chain & Blockchain Blog
+  https://www.ibm.com/blogs/blockchain/category/blockchain-newsletter/  (Thisdot)
+
+InfoWorld All Things Cloud
+  https://www.infoworld.com/newsletters/signup.html  (Thisdot)
+
+Interactive Design Foundation
+  https://www.interaction-design.org/newsletter  (Thisdot)
+
+JavaScript Kicks
+  http://javascriptkicks.com/  (Thisdot)
+
+JavaScript Weekly
+  https://javascriptweekly.com/  (Thisdot)
+
+Last week in AWS
+  https://www.lastweekinaws.com/newsletter/  (Thisdot)
+
+Michael Thiessen Newsletter
+  https://michaelnthiessen.com/newsletter  (Thisdot)
+
+Node Weekly
+  https://nodeweekly.com/  (Thisdot)
+
+Other Valleys
+  https://www.othervalleys.net/  (Thisdot)
+
+Prototypr
+  https://prototypr.io/  (Thisdot)
+
+React Digest
+  https://reactdigest.net/  (Thisdot)
+  https://www.getrevue.co/profile/the-react-digest  (Thisdot)
+
+React Explained
+  https://www.getrevue.co/profile/react-explained  (Thisdot)
+
+React Native Newsletter
+  http://reactnative.cc/  (Thisdot)
+
+React Status
+  https://react.statuscode.com/  (Thisdot)
+
+ReactJS Newsletter
+  http://reactjsnewsletter.com/  (Thisdot)
+
+Rekt News
+  https://rekt.news/  (Thisdot)
+
+rendezvous with cassidoo
+  https://cassidoo.co/newsletter/  (Thisdot)
+
+SaaS Bites
+  https://saasbites.substack.com  (Thisdot)
+
+Sidebar.io
+  https://sidebar.io/  (Thisdot)
+
+Smashing Newsletter
+  https://www.smashingmagazine.com/the-smashing-newsletter/  (Thisdot)
+
+Software Defined Talk
+  https://us1.campaign-archive.com/home/?u=ce6149b4008d62a08093a4fa6&id=5877922e21  (Thisdot)
+
+Stefan's Web Weekly
+  https://www.stefanjudis.com/newsletter/  (Thisdot)
+
+StrictlyVC
+  https://www.strictlyvc.com/  (Thisdot)
+
+Superhero.js
+  http://superherojs.com/  (Thisdot)
+
+Techpresso
+  https://dupple.com/techpresso  (Thisdot)
+
+TechRepublic Developer Essentials
+  https://www.techrepublic.com/newsletters/  (Thisdot)
+
+The Daily Byte
+  https://thedailybyte.dev  (Thisdot)
+
+The Deep Dive
+  https://indepth.dev/newsletter  (Thisdot)
+
+The Download
+  https://forms.technologyreview.com/newsletters/briefing-the-download/  (Thisdot)
+
+The Load Down
+  https://www.thisdot.co/newsletter/  (Thisdot)
+
+This Week In React
+  https://this-week-in-react.org/  (Thisdot)
+
+This Week in DevOps
+  https://thisweekindevops.com/  (Thisdot)
+
+TLDR
+  https://tldr.tech/  (Thisdot)
+
+UX Beginner
+  https://www.uxbeginner.com/ux-newsletter/  (Thisdot)
+
+UX Design Weekly
+  https://uxdesignweekly.com/  (Thisdot)
+
+UX Notebook
+  https://www.sarahdoody.com/ux-notebook-newsletter/  (Thisdot)
+
+Virtual Coffee
+  https://virtualcoffee.io/newsletter/  (Thisdot)
+
+Vue.js Developers Newsletter
+  https://www.getrevue.co/profile/vuejs-developers  (Thisdot)
+
+Vue.js Newsletter
+  https://news.vuejs.org  (Thisdot)
+
+VueDose
+  https://vuedose.tips  (Thisdot)
+
