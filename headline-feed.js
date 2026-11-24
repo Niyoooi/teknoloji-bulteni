@@ -72,6 +72,18 @@
   const dateFormat = day => new Intl.DateTimeFormat(language === "tr" ? "tr-TR" : "en-GB",{
     day:"numeric",month:"short",year:"numeric",timeZone:"UTC"
   }).format(new Date(day+"T00:00:00Z"));
+  const catchupCopy = {
+    tr:{heading:"Dünden eklenenler",published:"Yayın tarihi"},
+    en:{heading:"Added from yesterday",published:"Published"},
+  };
+  const selectedDay = () => chosenDate === "latest" ? availableDates[0] : chosenDate;
+  function previousDay(day) {
+    if(!/^\d{4}-\d{2}-\d{2}$/.test(day||""))return undefined;
+    const date=new Date(day+"T00:00:00Z");
+    if(!Number.isFinite(date.valueOf()))return undefined;
+    date.setUTCDate(date.getUTCDate()-1);
+    return date.toISOString().slice(0,10);
+  }
   const el = (tag,text,className) => {
     const node=document.createElement(tag);
     if(text)node.textContent=text;
@@ -170,10 +182,11 @@
     link.rel="noopener noreferrer";
     return link;
   }
-  function createRow(row) {
+  function createRow(row, catchup=false) {
     const article=el("article",null,"headline");
     const time=el("time",dateFormat(row.date));
     time.dateTime=row.date;
+    if(catchup)time.prepend(el("span",catchupCopy[language].published));
     const body=el("div",null,"headline-main");
     const languageIndex=language==="tr"?0:1;
     const translated=row.localized[language];
@@ -219,7 +232,7 @@
       button.setAttribute("aria-label",button.dataset.lang==="tr"?"Türkçe":"English");
     });
     select.replaceChildren(new Option(words.allDates,"all"),...availableDates.map(day=>new Option(dateFormat(day),day)));
-    const day=chosenDate==="latest"?availableDates[0]:chosenDate;
+    const day=selectedDay();
     select.value=availableDates.includes(day)?day:"all";
     $("edition-label").textContent=chosenDate==="all"?words.allDates:day?dateFormat(day):"";
     const live=rawDays.get(day);
@@ -240,8 +253,11 @@
   }
   function render() {
     const words=copy[language];
-    const day=chosenDate==="latest"?availableDates[0]:chosenDate;
-    const dateRows=headlines.filter(row=>day==="all" || row.date===day);
+    const day=selectedDay();
+    const yesterday=previousDay(day);
+    const lateKeys=new Set((rawDays.get(yesterday)?.lateUrls||[]).map(linkKey));
+    const isCatchup=row=>row.date===yesterday&&row.links.some(link=>lateKeys.has(link.key));
+    const dateRows=headlines.filter(row=>day==="all" || row.date===day || isCatchup(row));
     const terms=normalize(search.value.trim()).split(/\s+/).filter(Boolean);
     const activeView=!explicitView&&terms.length?"all":chosenView;
     const viewRows=activeView==="all"?dateRows:dateRows.filter(row=>row.type===activeView);
@@ -255,7 +271,14 @@
       button.querySelector(".view-count").textContent=loading?"":counts[key].toLocaleString(language);
     }
     const fragment=document.createDocumentFragment();
-    matches.forEach(row=>fragment.append(createRow(row)));
+    const lateFragment=document.createDocumentFragment();
+    for(const row of matches){
+      const late=isCatchup(row);
+      (late?lateFragment:fragment).append(createRow(row,late));
+    }
+    $("catchup-title").textContent=catchupCopy[language].heading;
+    $("catchup").hidden=!lateFragment.childElementCount;
+    $("catchup-stories").replaceChildren(lateFragment);
     container.replaceChildren(fragment);
     $("empty").hidden=loading||matches.length>0;
     $("count").textContent=loading?words.loading:words.count(matches.length,viewRows.length);
@@ -298,7 +321,8 @@
   }
   async function loadChosenDay() {
     const run=++rawLoadSerial;
-    const dates=chosenDate==="all"?rawDates:[chosenDate==="latest"?availableDates[0]:chosenDate];
+    const day=selectedDay();
+    const dates=day==="all"?rawDates:[day,previousDay(day)];
     const pending=dates.filter(day=>rawDates.includes(day)&&!rawDays.has(day));
     if(!pending.length){
       if(loading){loading=false;rebuild();chrome();render();}
