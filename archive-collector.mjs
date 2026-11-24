@@ -273,7 +273,7 @@ if(original.length)try{
 }
 
 for(const {day,items} of pending){
-  const saved=await siteRequest("/api/source-days",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({date:day,total,dated,unreachable,items})});
+  const saved=await siteRequest("/api/source-days",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({date:day,scanDate:finish,total,dated,unreachable,items})});
   if(!saved.ok)throw new Error("Archive write failed for "+day+" ("+saved.status+")");
   const confirmed=await saved.json();
   const checked=await siteRequest("/api/source-days?date="+day);
