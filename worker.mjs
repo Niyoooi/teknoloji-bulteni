@@ -7,6 +7,23 @@ const dataDate = value => {
   const date = new Date(value+"T00:00:00Z");
   return Number.isFinite(date.valueOf()) && date.toISOString().slice(0,10) === value;
 };
+function followingDay(day) {
+  const date = new Date(day+"T00:00:00Z");
+  date.setUTCDate(date.getUTCDate()+1);
+  return date.toISOString().slice(0,10);
+}
+function articleUrlKey(value) {
+  const url = new URL(value);
+  for (const key of [...url.searchParams.keys()]) {
+    if (/^utm_|^(trk|ref|fbclid|gclid|amp)$/i.test(key)) url.searchParams.delete(key);
+  }
+  return url.hostname.replace(/^www\./, "") + url.pathname.replace(/\/$/, "") + url.search;
+}
+function articleTitleKey(title, source) {
+  const key = title.toLowerCase().normalize("NFKD").replace(/\p{M}/gu, "").replace(/ı/g, "i")
+    .replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  return key.split(" ").length < 5 ? source + " " + key : key;
+}
 const shortText = (text, max) => typeof text === "string" && text.trim().length > 0 && text.length <= max;
 const validCopy = copy => copy && shortText(copy.title,240) && shortText(copy.summary,1300) && shortText(copy.why,800);
 function validUrl(value) {
@@ -117,6 +134,7 @@ async function sourceDays(request,bucket,url) {
   let input;
   try {input=JSON.parse(body);}catch{return json({error:"Invalid JSON"},400);}
   if(!input||!dataDate(input.date)||!Number.isSafeInteger(input.total)||input.total<1||
+      (input.scanDate!==undefined&&input.scanDate!==input.date&&input.scanDate!==followingDay(input.date))||
       !Number.isSafeInteger(input.dated)||input.dated<0||input.dated>input.total||
       !Number.isSafeInteger(input.unreachable)||input.unreachable<0||input.unreachable>input.total-input.dated||
       !Array.isArray(input.items)||input.items.some(row=>!Array.isArray(row)||row.length<4||row.length>6||
@@ -126,10 +144,34 @@ async function sourceDays(request,bucket,url) {
     return json({error:"Invalid source headlines"},400);
   }
   const key=dayKey(input.date);
-  const oldObject=await bucket.get(key);
-  if(oldObject){
-    const previous=await oldObject.json();
+  const isCatchup=input.scanDate===followingDay(input.date);
+  const fixedRows=isCatchup?JSON.parse(scanData).items.filter(row=>row[0]===input.date):[];
+  if(isCatchup){
+    const previousEdition=await bucket.get(prefix+key.slice(sourcePrefix.length));
+    for(const story of (previousEdition?await previousEdition.json():null)?.stories||[]){
+      if(story.date!==input.date)continue;
+      for(const source of story.sources){
+        fixedRows.push([input.date,story.tr.title,source.url,source.name], [input.date,story.en.title,source.url,source.name]);
+      }
+    }
+  }
+  for(let attempt=0;attempt<4;attempt++){
+    const oldObject=await bucket.get(key);
+    const previous=oldObject?await oldObject.json():{};
+    const lateUrls=new Set(previous.lateUrls||[]);
     const byUrl=new Map((previous.items||[]).map(row=>[row[2],row]));
+    if(isCatchup){
+      const known=[...byUrl.values(),...fixedRows];
+      const urls=new Set(known.map(row=>articleUrlKey(row[2])));
+      const titles=new Set(known.map(row=>articleTitleKey(row[1],row[3])));
+      for(const row of input.items){
+        const url=articleUrlKey(row[2]);
+        const title=articleTitleKey(row[1],row[3]);
+        if(!urls.has(url)&&!titles.has(title))lateUrls.add(row[2]);
+        urls.add(url);
+        titles.add(title);
+      }
+    }
     for(const row of input.items){
       const old=byUrl.get(row[2]);
       const description=row[4]||old?.[4]||"";
@@ -142,10 +184,13 @@ async function sourceDays(request,bucket,url) {
       byUrl.set(row[2],Object.keys(localized).length?[...row.slice(0,4),description,localized]:
         description?[...row.slice(0,4),description]:row);
     }
-    input.items=[...byUrl.values()];
+    const record={date:input.date,total:input.total,dated:input.dated,unreachable:input.unreachable,items:[...byUrl.values()]};
+    if(lateUrls.size)record.lateUrls=[...lateUrls];
+    const onlyIf=oldObject?{etagMatches:oldObject.etag}:new Headers({"If-None-Match":"*"});
+    const saved=await bucket.put(key,JSON.stringify(record),{onlyIf,httpMetadata:{contentType:"application/json"}});
+    if(saved!==null)return json({date:record.date,items:record.items.length});
   }
-  await bucket.put(key,JSON.stringify(input),{httpMetadata:{contentType:"application/json"}});
-  return json({date:input.date,items:input.items.length});
+  return json({error:"Archive update conflict. Retry the request."},409);
 }
 export default {
   async fetch(request, env) {
